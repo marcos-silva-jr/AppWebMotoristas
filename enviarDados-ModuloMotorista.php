@@ -40,22 +40,6 @@
 	// ================== SALVA O NUMERO DOS CTES =================
 	// ==================== ********************* ==================
 	
-	$numeroCTE = substr($pegaCTE, -7, -1);
-	
-	// ==================== ********************* ==================
-	// ================== SALVA O NOME DAS FILIAIS =================
-	// ==================== ********************* ==================
-
-	$filial = substr($pegaCTE, 6, 14);
-
-	if($filial=="00026360000162"){			$filial="ATU"; 	}
-	else if ($filial=="04100709000110") { 	$filial="SER";	}
-	else if ($filial=="00026360000596") { 	$filial="ATS";	}
-	else if ($filial=="24905397000129") { 	$filial="ATX";	}
-	else if ($filial=="00026360000405") {	$filial="ATR";	}
-	else if ($filial=="01152739000181") {	$filial="MTZ";	}
-	else{ 	$filial = ".";	}
-
 	session_start(); // --------------------- INICIA A SESSÃO DO USUARIO
 	$operador =  $_SESSION['login']; //------ CRIA VARIAVEL COM NOME DE USUARIO 
 	
@@ -65,7 +49,7 @@
 		$usuarios2   = $query2->fetchAll();
 	
 			foreach($usuarios2 as $busca_usuario2) {							
-				if($busca_usuario2['TIPO_USUARIO'] != 2){
+				if($busca_usuario2['xxx'] != 2){
 					
 					echo "<script type='text/javascript'>alert('ATENCAO :: ACESSO NÃO PERMITIDO'); window.location='index.php';</script>";
 					
