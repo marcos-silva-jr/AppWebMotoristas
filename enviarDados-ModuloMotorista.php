@@ -297,8 +297,7 @@
 	<!--!===================================== ************************************** =================== --!-->	
 	<!--!===================================== ************************************** =================== --!-->	
 	<!--!===================================== ------- ATENÇÃO ---------------------- =================== --!-->	
-	<!--!========================= TROCAR ESTE ENDEREÇO PARA REALIZAR TESTES INTERNOS =================== --!-->
-	<!--!===== ENDEREÇO PADRÃO PARA FUNCIONAR: app.aosafe.com.br:8082/App/enviarDados-ModuloMotorista.php --!-->	
+	<!--!========================= TROCAR ESTE ENDEREÇO PARA REALIZAR TESTES INTERNOS =================== --!-->	
 	<!--!===================================== ************************************** =================== --!-->	
 	<!--!===================================== ************************************** =================== --!-->
 		
@@ -398,12 +397,7 @@
 	<!--ANEXO-->	<input type="file" value="Enviar anexo" placeholder="ANEXO" id="arquivo" name="arquivo" required name="arquivo" style="display: none; font-size: 50px; width: 880px; height: 100px; text-align: center; border-radius: 50px; border-color:#FFD40D; border-width:10px;"/>
 
 	<!-- BOTÃO ENVIAR--><br><input type="submit" value="Finalizar entrega" class="botao01" style="font-size: 1.6rem;  background-color: #042f66;	 width:90%; height: 60px; border-radius: 50px;">  
-				</form>	
-				<div id="rodape">
-					<label style="background-color: #042f66;    text-align: center;    font-weight:normal;    width:100%;
-				color:white;     position:fixed;     bottom:0px;    left:0px;     font-size: 1.1rem;    height: 2rem;"><?php  echo "Módulo [Motorista] - ", ucfirst($operador); ?> - Versão do Sistema: 2.1.5 &nbsp;
-					<a href="index.php" style="text-decoration: none; border-radius: 40px  widht:30px; border-color:white; border-width:10px; color: white; font-size: 1.4rem; font-weight: bold;"  >&nbsp;SAIR</a> </label>
-				</div>
+				</form>					
 			</font>
 		</center>
 	</body>
