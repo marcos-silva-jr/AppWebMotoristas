@@ -96,8 +96,7 @@
 		<br><br><br><br><br><br>
 			<div id="rodape">
 				<label style="background-color: #042f66;    text-align: center;    font-weight:bold;    width:100%;
-				color:white;     position:fixed;     bottom:0px;    left:0px;     font-size: 2rem;    height: 7rem;">
-				<br>Atuex Express &copy; Todos os direitos reservados - <?php echo date('Y'); ?></label>
+				color:white;     position:fixed;     bottom:0px;    left:0px;     font-size: 2rem;    height: 7rem;">				
 			</div>
 		</font>
 		</center>
